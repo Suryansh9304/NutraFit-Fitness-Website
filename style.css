@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    text-align: center;
+}
+header {
+    background-color: #003282;
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F7b%2Fa1%2F0d%2F7ba10d8caca0ff8f1555410fe1a4d76c.jpg&f=1&nofb=1&ipt=1e28db604f45f118aa8189487c0d53850063db9d466e84de460e369e1f58377e&ipo=images');
+    color: white;
+    text-decoration-color: aquamarine;
+    padding: 20px 50px;
+}
+nav {
+    margin: 20px 0;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+.new {
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F804834.jpg&f=1&nofb=1&ipt=e8e85adba9e064ece5259fe8adc3b7865d8daffb225f8e19d9dd9f95300d382a&ipo=images');
+    background-color: #001842;
+    position: relative;
+    color: white;
+    padding: 500px 20px;
+}
+.new h1 {
+    margin: 0;
+    font-size: 2.5em; 
+.content {
+    padding: 20px;
+}
+footer {
+    background-color: #10cb7a;
+    color: white;
+    padding: 10px 0;
+    position: relative; 
+    bottom: 0;
+}
+.menu-section {
+    padding: 20px;
+}
+.menu-item {
+    margin: 10px 0;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column; 
+    cursor: pointer; 
+}
+.menu-item img {
+    max-width: 100%; 
+    height: auto; 
+    width: 200px; 
+    margin-bottom: 10px; 
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+    nav a {
+        display: block; 
+        margin: 10px 0;
+    }
+    .new h1 {
+        font-size: 2em; 
+    }
+    .new p {
+        font-size: 1.2em; 
+    }
+}
+
+@media (max-width: 480px) {
+    .new {
+        padding: 30px 10px;
+    }
+    footer {
+        font-size: 0.9em; 
+    }
+}
+}
